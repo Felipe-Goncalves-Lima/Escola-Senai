@@ -36,7 +36,7 @@ public class ProjetoApplication {
 
 			List<Nota> notas = aluno.getNota();
 			for (Nota nota : notas) {
-				System.out.println("Nota: "+ nota.getDisciplina().getNome() + ": " + nota.getValor());
+				System.out.println("Nota "+ nota.getDisciplina().getNome() + ": " + nota.getValor());
 				
 			}
 		}
